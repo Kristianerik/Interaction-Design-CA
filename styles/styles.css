@@ -19,7 +19,9 @@ header{
 }
 
 .search-bar{
-    float: center;
+    float: none;
+    top: 50%;
+    left: 50%;
 }
 
 .search-bar input[type=text] {
@@ -28,6 +30,16 @@ header{
     font-family: Comfortaa, Arial, sans-serif; 
     font-size: 17px;
     border: none;
+}
+
+.search-bar button{
+    float:none;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: var(--blue);
+    border: none;
+    cursor: pointer;
 }
 
 .search-bar button:hover {
@@ -41,8 +53,8 @@ header{
     display: inline-flex;
     width: 423px;
     height: 205px;
-    border: 3px solid var(--background-dark-blue);
-    
+    border: 3px solid #ffffff;
+    background-color: #ffffff;
 }
 
 .floatedr{
@@ -50,8 +62,8 @@ header{
 }
 
 main {
-    background-image: linear-gradient(var(--background-dark-blue),var(--light-blue));
-    padding: 0%;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(27,32,61,1) 73%, rgba(101,104,108,1) 100%);
 }
 
 .footerimage{
