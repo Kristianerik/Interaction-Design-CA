@@ -15,7 +15,7 @@
 
 header{
     background-color: var(--background-dark-blue);
-    
+    padding: 0%;
 }
 
 .search-bar{
@@ -50,8 +50,8 @@ header{
 }
 
 main {
-    background-image: linear-gradient(var(--background-dark-blue),gray);
-
+    background-image: linear-gradient(var(--background-dark-blue),var(--light-blue));
+    padding: 0%;
 }
 
 .footerimage{
@@ -65,4 +65,5 @@ main {
 
 footer{
     background-color: var(--background-dark-blue);
+    padding: 0%;
 }
