@@ -14,15 +14,17 @@
 }
 
 header{
+    height: 205px;
     display:block;
     background-color: var(--background-dark-blue);
-    padding: 0%;
+    margin: 0%;
 }
 
 .search-bar{
     float: right;
     width: 969px;
     height: 85px;
+    margin-top: 60px;
 }
 
 .search-bar input[type=text] {
@@ -38,15 +40,14 @@ header{
     width: 112px;
     height: 85px;
     padding: 6px;
-    margin-top: 8px;
-    margin-right: 16px;
+    margin-top: 60px;
     background: var(--blue);
     border: none;
     cursor: pointer;
 }
 
 .search-bar button:hover {
-    background: #ccc;
+    background: var(--light-blue);
 }
 
 .logo{
@@ -60,6 +61,8 @@ header{
 
 main {
     display: block;
+    margin: 0%;
+    height: 2333px;
     background: rgb(2,0,36);
     background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(27,32,61,1) 73%, rgba(101,104,108,1) 100%);
 }
@@ -73,6 +76,7 @@ main {
 
 footer{
     display: block;
+    margin: 0%;
     height: 251px;
     background-color: var(--background-dark-blue);
     padding: 0%;
