@@ -28,7 +28,7 @@ header{
 
 form{
     display: inline-flex;
-    margin-left: 180px;
+    margin-left: 15%;
     margin-top: 75px;
     width: 585px;
     height: 50px;
@@ -137,6 +137,20 @@ main {
     height: 2333px;
     background: rgb(2,0,36);
     background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(27,32,61,1) 73%, rgba(101,104,108,1) 100%);
+}
+
+/* css for new section header */
+
+.new-realeases {
+    width: 300px;
+    color: #ffffff;
+    padding: 10px;
+    border: 5px solid var(--background-dark-blue);
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(102,107,138,1) 80%, rgba(29,57,83,1) 100%);
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 50%;
 }
 
 h1{
