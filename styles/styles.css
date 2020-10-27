@@ -15,15 +15,13 @@
 
 header{
     height: 205px;
-    display:block;
+    display: block;
     background-color: var(--background-dark-blue);
     margin: 0px;
 }
 
 .search-bar{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: relative;
     width: 969px;
     height: 70px;
 }
@@ -36,11 +34,12 @@ header{
 }
 
 .search-bar button{
-    display: flex;
+    display: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 70px;
     height: 70px;
-    align-items: center;
-    justify-content: center;
     background: var(--blue);
     border: none;
     cursor: pointer;
