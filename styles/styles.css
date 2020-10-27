@@ -14,12 +14,13 @@
 }
 
 header{
+    display:block;
     background-color: var(--background-dark-blue);
     padding: 0%;
 }
 
 .search-bar{
-    float: none;
+    float: right;
     top: 50%;
     left: 50%;
 }
@@ -29,11 +30,11 @@ header{
     margin-top: 8px;
     font-family: Comfortaa, Arial, sans-serif; 
     font-size: 17px;
-    border: none;
+    border: right;
 }
 
 .search-bar button{
-    float:none;
+    float:right;
     padding: 6px;
     margin-top: 8px;
     margin-right: 16px;
@@ -47,35 +48,26 @@ header{
 }
 
 .logo{
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    display: inline-flex;
-    width: 423px;
-    height: 205px;
-    border: 3px solid #ffffff;
+    float: left;
+    border: 3px solid var(--background-dark-blue);
     background-color: #ffffff;
 }
 
-.floatedr{
-    float: right;
-}
 
 main {
+    display: block;
     background: rgb(2,0,36);
     background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(27,32,61,1) 73%, rgba(101,104,108,1) 100%);
 }
 
 .footerimage{
-    display: inline-flex;
-    width: 377px;
-    height: 251px;
     padding: 0%;
     float: right;
     
 }
 
 footer{
+    display: block;
     background-color: var(--background-dark-blue);
     padding: 0%;
 }
