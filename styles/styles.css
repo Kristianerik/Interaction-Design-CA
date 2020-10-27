@@ -21,26 +21,26 @@ header{
 }
 
 .search-bar{
-    float: none;
-    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 969px;
-    height: 50%;
-    margin-top: 60px;
+    height: 70px;
 }
 
 .search-bar input[type=text] {
     padding: 6px;
-    margin-top: 10px;
     font-family: Comfortaa, Arial, sans-serif; 
     font-size: 30px;
-    border: right;
+    margin: auto;
 }
 
 .search-bar button{
-    float:none;
+    display: flex;
     width: 70px;
     height: 70px;
-    margin: auto;
+    align-items: center;
+    justify-content: center;
     background: var(--blue);
     border: none;
     cursor: pointer;
@@ -53,6 +53,9 @@ header{
 
 .logo{
     float: left;
+    border: solid;
+    border-color: var(--background-dark-blue);
+    border-width: 3px;
     width: 350px;
     height: 205px;
     border:  0px;
