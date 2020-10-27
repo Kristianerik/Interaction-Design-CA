@@ -7,11 +7,15 @@
     src: url("../fonts/TitilliumWeb-Regular.ttf");
 }
 
+/* css variables */
+
 :root{
     --background-dark-blue: #1B203D;
     --light-blue: #666B8A;
     --blue: #3D488A;
 }
+
+/* css for header */
 
 header{
     height: 205px;
@@ -19,6 +23,8 @@ header{
     background-color: var(--background-dark-blue);
     margin: 0px;
 }
+
+/* css for search bar */
 
 form{
     display: inline-flex;
@@ -50,12 +56,15 @@ form{
     background: var(--blue);
     border: none;
     cursor: pointer;
+    font-size: x-large;
+    color: #ffffff;
 }
 
 .search-bar button:hover {
     background: var(--light-blue);
 }
 
+/* css for website logo */
 
 .logo{
     float: left;
@@ -69,6 +78,50 @@ form{
     margin: 0%;
 }
 
+/* css for dropdown menu */
+
+.dropbtn {
+    background-color: var(--blue);
+    color: #ffffff;
+    padding: 16px;
+    font-size: x-large;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--blue);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a{
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: var(--light-blue);
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: var(--light-blue);
+}
+
+/* css for body of page */
 
 main {
     display: block;
@@ -91,12 +144,16 @@ p{
     color: #ffffff;
 }
 
+/* css for footer image */
+
 .footerimage{
     padding: 0%;
     float: right;
     width: 377px;
     height: 251;
 }
+
+/* css for footer */
 
 footer{
     display: block;
