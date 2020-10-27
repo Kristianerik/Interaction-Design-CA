@@ -22,8 +22,7 @@ header{
 
 .search-bar{
     float: none;
-    top: 50%;
-    right: 50%;
+    margin: auto;
     width: 969px;
     height: 50%;
     margin-top: 60px;
@@ -40,9 +39,8 @@ header{
 .search-bar button{
     float:none;
     width: 70px;
-    height: 50%;
-    margin-top: 25%;
-    margin-bottom: 25%;
+    height: 70px;
+    margin: auto;
     background: var(--blue);
     border: none;
     cursor: pointer;
@@ -52,9 +50,6 @@ header{
     background: var(--light-blue);
 }
 
-html{
-    margin: 0%;
-}
 
 .logo{
     float: left;
@@ -62,6 +57,7 @@ html{
     height: 205px;
     border:  0px;
     background-color: #ffffff;
+    margin: 0%;
 }
 
 
@@ -75,6 +71,7 @@ main {
 
 h1{
     color: #ffffff;
+    margin-top: 0%;
 }
 
 body{
