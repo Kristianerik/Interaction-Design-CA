@@ -1,0 +1,68 @@
+@font-face{
+    font-family: 'Comfortaa';
+    src: url("../fonts/Comfortaa-VariableFont_wght.ttf");
+    font-family: 'Roboto';
+    src: url("../fonts/RobotoMono-VariableFont_wght.ttf");
+    font-family: Titillium Web;
+    src: url("../fonts/TitilliumWeb-Regular.ttf");
+}
+
+:root{
+    --background-dark-blue: #1B203D;
+    --light-blue: #666B8A;
+    --blue: #3D488A;
+}
+
+header{
+    background-color: var(--background-dark-blue);
+    
+}
+
+.search-bar{
+    float: center;
+}
+
+.search-bar input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-family: Comfortaa, Arial, sans-serif; 
+    font-size: 17px;
+    border: none;
+}
+
+.search-bar button:hover {
+    background: #ccc;
+}
+
+.logo{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    display: inline-flex;
+    width: 423px;
+    height: 205px;
+    border: 3px solid var(--background-dark-blue);
+    
+}
+
+.floatedr{
+    float: right;
+}
+
+main {
+    background-image: linear-gradient(var(--background-dark-blue),gray);
+
+}
+
+.footerimage{
+    display: inline-flex;
+    width: 377px;
+    height: 251px;
+    padding: 0%;
+    float: right;
+    
+}
+
+footer{
+    background-color: var(--background-dark-blue);
+}
