@@ -21,20 +21,22 @@ header{
 
 .search-bar{
     float: right;
-    top: 50%;
-    left: 50%;
+    width: 969px;
+    height: 85px;
 }
 
 .search-bar input[type=text] {
     padding: 6px;
     margin-top: 8px;
     font-family: Comfortaa, Arial, sans-serif; 
-    font-size: 17px;
+    font-size: 30px;
     border: right;
 }
 
 .search-bar button{
     float:right;
+    width: 112px;
+    height: 85px;
     padding: 6px;
     margin-top: 8px;
     margin-right: 16px;
@@ -49,6 +51,8 @@ header{
 
 .logo{
     float: left;
+    width: 423px;
+    height: 205px;
     border: 3px solid var(--background-dark-blue);
     background-color: #ffffff;
 }
@@ -63,11 +67,13 @@ main {
 .footerimage{
     padding: 0%;
     float: right;
-    
+    width: 377px;
+    height: 251;
 }
 
 footer{
     display: block;
+    height: 251px;
     background-color: var(--background-dark-blue);
     padding: 0%;
 }
