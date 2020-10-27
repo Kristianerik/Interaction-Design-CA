@@ -17,11 +17,11 @@ header{
     height: 205px;
     display:block;
     background-color: var(--background-dark-blue);
-    margin: 0%;
+    margin: 0px;
 }
 
 .search-bar{
-    float: right;
+    float: none;
     width: 969px;
     height: 85px;
     margin-top: 60px;
@@ -29,18 +29,18 @@ header{
 
 .search-bar input[type=text] {
     padding: 6px;
-    margin-top: 8px;
+    margin-top: 10px;
     font-family: Comfortaa, Arial, sans-serif; 
     font-size: 30px;
     border: right;
 }
 
 .search-bar button{
-    float:right;
+    float:none;
     width: 112px;
     height: 85px;
-    padding: 6px;
-    margin-top: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     background: var(--blue);
     border: none;
     cursor: pointer;
@@ -61,10 +61,18 @@ header{
 
 main {
     display: block;
-    margin: 0%;
+    margin: 0px;
     height: 2333px;
     background: rgb(2,0,36);
     background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(27,32,61,1) 73%, rgba(101,104,108,1) 100%);
+}
+
+h1{
+    color: #ffffff;
+}
+
+p{
+    color: #ffffff;
 }
 
 .footerimage{
@@ -76,7 +84,7 @@ main {
 
 footer{
     display: block;
-    margin: 0%;
+    margin: 0px;
     height: 251px;
     background-color: var(--background-dark-blue);
     padding: 0%;
