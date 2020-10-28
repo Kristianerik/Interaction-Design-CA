@@ -207,6 +207,12 @@ main {
 
 /* ------------------------------------------------------ Footer -------------------------------------------- */
 
+.footercontainer{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
 
 .aboutus{
     width: 50%;
@@ -216,13 +222,8 @@ main {
     background: rgb(2,0,36);
     background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(102,107,138,1) 80%, rgba(29,57,83,1) 100%);
     text-align: center;
-    position: relative;
-    top: 1%;
-    left: 23%;
-    display: block;
     font-size: x-large;
     font-family: Roboto, Arial, sans-serif;
-    margin: 0%;
 }
 
 .contactus{
@@ -233,13 +234,8 @@ main {
     background: rgb(2,0,36);
     background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(102,107,138,1) 80%, rgba(29,57,83,1) 100%);
     text-align: center;
-    position: relative;
-    top: 1%;
-    left: 23%;
-    display: block;
     font-size: x-large;
     font-family: Roboto, Arial, sans-serif;
-    margin: 0%;
 }
 
 
@@ -262,7 +258,16 @@ footer{
 }
 
 
+@media only screen and (min-width: 968){
+    main{
+        height: 200em;
+    }
+}
+
 @media only screen and (min-width: 600px){
+
+
+ /* ------------------------------------------------------ header -------------------------------------------- */
 
 /* css for header when page is > 600 px wide*/
 
@@ -365,6 +370,8 @@ form{
     display: block;
 }
 
+/* ------------------------------------------------------ Body -------------------------------------------- */
+
 main{
     height: 100em;
 }
@@ -398,6 +405,15 @@ main{
 
 .gameart {
     width: 100%;
+}
+
+
+/* ------------------------------------------------------ Footer -------------------------------------------- */
+
+
+.footercontainer{
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 /* css for footer image */
