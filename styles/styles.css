@@ -186,7 +186,7 @@ main {
 
 
 /* css for Popular now section header */
-
+/*
 .popularnow {
     width: 50%;
     color: #ffffff;
@@ -205,7 +205,7 @@ main {
 }
 
 /* css for flexbox in popular now section */
-
+/*
 .containertwo{
     display: flex;
     flex-direction: column;
@@ -214,6 +214,7 @@ main {
     left: 11.5%;
     width: 70%;
 }
+*/
 
 /* css for game covers */
 
@@ -373,8 +374,8 @@ form{
     background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(102,107,138,1) 80%, rgba(29,57,83,1) 100%);
     text-align: center;
     position: relative;
-    top: 2%;
-    left: 38%;
+    top: 1%;
+    left: 35%;
     font-size: x-large;
     font-family: Roboto, Arial, sans-serif;
 }
@@ -389,7 +390,7 @@ form{
 }
 
 /* css for popular now  header when page is > 600px */
-
+/*
 .popularnow {
     width: 25%;
     color: #ffffff;
@@ -400,20 +401,20 @@ form{
     text-align: center;
     position: relative;
     top: 2%;
-    left: 38%;
+    left: 35%;
     font-size: x-large;
     font-family: Roboto, Arial, sans-serif;
 }
 
 /* css for flex box containing game content */
-
+/*
 .containertwo{
         flex-direction: row;
         left: 0%;
         width: 90%;
         flex-wrap: wrap;
 }
-
+*/
 .gameart {
     width: 100%;
 }
