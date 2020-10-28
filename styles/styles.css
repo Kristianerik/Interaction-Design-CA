@@ -165,24 +165,57 @@ main {
     background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(102,107,138,1) 80%, rgba(29,57,83,1) 100%);
     text-align: center;
     position: relative;
-    top: 2%;
-    left: 21%;
+    top: 3%;
+    left: 22.5%;
     display: block;
     font-size: x-large;
     font-family: Roboto, Arial, sans-serif;
     margin: 0%;
 }
 
-/* css for game covers */
+/* css for flexbox in new releases section */
 
 .container{
     display: flex;
     flex-direction: column;
     position: relative;
     top: 3%;
-    left: 10%;
+    left: 11.5%;
     width: 70%;
 }
+
+
+/* css for Popular now section header */
+
+.popularnow {
+    width: 50%;
+    color: #ffffff;
+    padding: 10px;
+    border: 2px solid var(--background-dark-blue);
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(102,107,138,1) 80%, rgba(29,57,83,1) 100%);
+    text-align: center;
+    position: relative;
+    top: 3%;
+    left: 22.5%;
+    display: block;
+    font-size: x-large;
+    font-family: Roboto, Arial, sans-serif;
+    margin: 0%;
+}
+
+/* css for flexbox in popular now section */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 3%;
+    left: 11.5%;
+    width: 70%;
+}
+
+/* css for game covers */
 
 .gamecover {
     flex: 1;
