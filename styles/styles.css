@@ -165,7 +165,7 @@ main {
     background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(102,107,138,1) 80%, rgba(29,57,83,1) 100%);
     text-align: center;
     position: relative;
-    top: 3%;
+    top: 1%;
     left: 22.5%;
     display: block;
     font-size: x-large;
@@ -179,7 +179,7 @@ main {
     display: flex;
     flex-direction: column;
     position: relative;
-    top: 3%;
+    top: 1%;
     left: 11.5%;
     width: 70%;
 }
@@ -362,7 +362,7 @@ form{
 }
 
 
-/* css for new section header when page is > 600px */
+/* css for new releases section header when page is > 600px */
 
 .new-releases {
     width: 25%;
@@ -379,9 +379,35 @@ form{
     font-family: Roboto, Arial, sans-serif;
 }
 
-/* css for flex box containing game content */
+/* css for flex box in new releases section containing game content */
 
 .container{
+        flex-direction: row;
+        left: 0%;
+        width: 90%;
+        flex-wrap: wrap;
+}
+
+/* css for popular now  header when page is > 600px */
+
+.popularnow {
+    width: 25%;
+    color: #ffffff;
+    padding: 10px;
+    border: 2px solid var(--background-dark-blue);
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(102,107,138,1) 80%, rgba(29,57,83,1) 100%);
+    text-align: center;
+    position: relative;
+    top: 2%;
+    left: 38%;
+    font-size: x-large;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+/* css for flex box containing game content */
+
+.containertwo{
         flex-direction: row;
         left: 0%;
         width: 90%;
