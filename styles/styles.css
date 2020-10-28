@@ -195,12 +195,12 @@ main {
     text-align: center;
     font-family: Titillium Web, Arial, Helvetica, sans-serif;
     color: #ffffff;
-    font-size: 1em;
+    font-size: 60%;
 }
 
 /* Css for Game Cover images */
 .gameart {
-    width: 50%;
+    width: 75%;
 }
 
 
