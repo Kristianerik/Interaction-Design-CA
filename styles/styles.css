@@ -194,6 +194,11 @@ main {
     background-color: var(--blue);
 }
 
+/* Css for Game Cover images */
+.gameart {
+    width: 10em;
+}
+
 
 
 /* css for footer image */
