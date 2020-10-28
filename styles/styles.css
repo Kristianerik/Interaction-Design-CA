@@ -260,7 +260,7 @@ footer{
 
 @media only screen and (min-width: 968){
     main{
-        height: 200em;
+        height: 100em;
     }
 }
 
@@ -373,7 +373,7 @@ form{
 /* ------------------------------------------------------ Body -------------------------------------------- */
 
 main{
-    height: 100em;
+    height: 200em;
 }
 
 
@@ -423,6 +423,7 @@ main{
     float: right;
     width: 377px;
     height: 251;
+    display: inline-flex;
 }
 
 
