@@ -154,9 +154,9 @@ main {
     background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(27,32,61,1) 73%, rgba(101,104,108,1) 100%);
 }
 
-/* css for new section header */
+/* css for section headers */
 
-.new-releases {
+.secheader {
     width: 50%;
     color: #ffffff;
     padding: 10px;
@@ -166,7 +166,7 @@ main {
     text-align: center;
     position: relative;
     top: 1%;
-    left: 22.5%;
+    left: 37%;
     display: block;
     font-size: x-large;
     font-family: Roboto, Arial, sans-serif;
@@ -183,38 +183,6 @@ main {
     left: 11.5%;
     width: 70%;
 }
-
-
-/* css for Popular now section header */
-/*
-.popularnow {
-    width: 50%;
-    color: #ffffff;
-    padding: 10px;
-    border: 2px solid var(--background-dark-blue);
-    background: rgb(2,0,36);
-    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(102,107,138,1) 80%, rgba(29,57,83,1) 100%);
-    text-align: center;
-    position: relative;
-    top: 3%;
-    left: 22.5%;
-    display: block;
-    font-size: x-large;
-    font-family: Roboto, Arial, sans-serif;
-    margin: 0%;
-}
-
-/* css for flexbox in popular now section */
-/*
-.containertwo{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    top: 3%;
-    left: 11.5%;
-    width: 70%;
-}
-*/
 
 /* css for game covers */
 
@@ -362,36 +330,14 @@ form{
     display: block;
 }
 
+main{
+    height: 150em;
+}
+
 
 /* css for new releases section header when page is > 600px */
 
-.new-releases {
-    width: 25%;
-    color: #ffffff;
-    padding: 10px;
-    border: 2px solid var(--background-dark-blue);
-    background: rgb(2,0,36);
-    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(102,107,138,1) 80%, rgba(29,57,83,1) 100%);
-    text-align: center;
-    position: relative;
-    top: 1%;
-    left: 35%;
-    font-size: x-large;
-    font-family: Roboto, Arial, sans-serif;
-}
-
-/* css for flex box in new releases section containing game content */
-
-.container{
-        flex-direction: row;
-        left: 0%;
-        width: 90%;
-        flex-wrap: wrap;
-}
-
-/* css for popular now  header when page is > 600px */
-/*
-.popularnow {
+.secheader {
     width: 25%;
     color: #ffffff;
     padding: 10px;
@@ -406,15 +352,15 @@ form{
     font-family: Roboto, Arial, sans-serif;
 }
 
-/* css for flex box containing game content */
-/*
-.containertwo{
+/* css for flex box in new releases section containing game content */
+
+.container{
         flex-direction: row;
         left: 0%;
         width: 90%;
         flex-wrap: wrap;
 }
-*/
+
 .gameart {
     width: 100%;
 }
