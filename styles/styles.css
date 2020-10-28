@@ -15,10 +15,16 @@
     --blue: #3D488A;
 }
 
+/* css to remove white border */
+
+.body {
+    margin: 0px;
+}
+
 /* css for header */
 
 header{
-    height: 205px;
+    height: 310px;
     display: block;
     background-color: var(--background-dark-blue);
     margin: 0px;
@@ -29,16 +35,18 @@ header{
 form{
     display: inline-flex;
     position: relative;
-    left: 9%;
+    left: 8%;
     top: 35%;
-    width: 585px;
+    width: 500px;
     height: 50px;
+    margin: 0%;
 }
 
 .search-bar{
-    margin-left: 449px;
-    margin-top: 0px;
-    display: contents;
+    top: 21%;
+    left: 2%;
+    position: absolute;
+    display: flex;
 }
 
 .search-bar input[type=text] {
@@ -51,8 +59,7 @@ form{
 }
 
 .search-bar button{
-    margin-left: 0px;
-    margin-top: 0px;
+    margin: 0px;
     width: 80px;
     height: 65px;
     background: var(--blue);
@@ -69,7 +76,9 @@ form{
 /* css for website logo */
 
 .logo{
-    float: left;
+    position: relative;
+    top: 0%;
+    left: 17%;
     border: solid;
     border-color: var(--background-dark-blue);
     border-width: 3px;
@@ -88,15 +97,17 @@ form{
     padding: 16px;
     font-size: xx-large;
     border: none;
-    right: 0;
-    width: 105px;
+    right: 0px;
+    width: 112px;
     height: 80px;
 
 }
 
 .dropdown {
-    position: relative;
+    position: absolute;
     display: inline-block;
+    top: 0%;
+    right: 0%;
 }
 
 .dropdown-content {
@@ -151,10 +162,12 @@ main {
     background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(102,107,138,1) 80%, rgba(29,57,83,1) 100%);
     text-align: center;
     position: relative;
-    top: 1%;
-    left: 42%;
+    top: 2%;
+    left: 28%;
+    display: block;
     font-size: x-large;
     font-family: Roboto, Arial, sans-serif;
+    margin: 0%;
 }
 
 /* css for game covers */
@@ -162,19 +175,36 @@ main {
 .container{
     display: flex;
     flex-direction: column;
+    position: relative;
+    top: 3%;
+    left: -5%;
 }
 
 .gamecover {
     flex: 1;
-    padding: 10 px;
+    padding: 30px;
     position: relative;
-    top: 3%;
+    top: 2%;
     left: 5%;
+    margin: 2%;
 }
 
-p{
-    color: #ffffff;
+.one {
+    background-color: var(--blue);
 }
+
+.two {
+    background-color: var(--blue);
+}
+
+.three {
+    background-color: var(--blue);
+}
+
+.four {
+    background-color: var(--blue);
+}
+
 
 /* css for footer image */
 
@@ -197,6 +227,117 @@ footer{
 
 
 @media only screen and (min-width: 600px){
+
+/* css for header when page is > 600 px wide*/
+
+header{
+    height: 205px;
+    display: block;
+    background-color: var(--background-dark-blue);
+    margin: 0px;
+}
+
+/* css for search bar when page is > 600 px wide */
+
+form{
+    display: inline-flex;
+    position: relative;
+    left: 9%;
+    top: 35%;
+    width: 585px;
+    height: 50px;
+}
+
+.search-bar{
+    margin-left: 449px;
+    margin-top: 0px;
+    display: contents;
+}
+
+.search-bar input[type=text] {
+    width: 500px;
+    height: 60px;
+    padding: 0px;
+    font-family: Comfortaa, Arial, sans-serif; 
+    font-size: 30px;
+    padding-left: 5px;
+}
+
+.search-bar button{
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 80px;
+    height: 65px;
+    background: var(--blue);
+    border: none;
+    cursor: pointer;
+    font-size: x-large;
+    color: #ffffff;
+}
+
+/* css for website logo when page is > 600px wide*/
+
+.logo{
+    float: left;
+    border: solid;
+    border-color: var(--background-dark-blue);
+    border-width: 3px;
+    width: 385px;
+    height: 205px;
+    border:  0px;
+    background-color: #ffffff;
+    margin: 0%;
+}
+
+/* css for dropdown menu when page is > 600px wide */
+
+.dropbtn {
+    background-color: var(--blue);
+    color: #ffffff;
+    padding: 16px;
+    font-size: xx-large;
+    border: none;
+    right: 0;
+    width: 105px;
+    height: 80px;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--blue);
+    min-width: 105px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0;
+    text-align: center;
+    font-size: xx-large;
+}
+
+
+/* css for new section header when page is > 600px */
+
+.new-releases {
+    width: 240px;
+    color: #ffffff;
+    padding: 10px;
+    border: 2px solid var(--background-dark-blue);
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(102,107,138,1) 80%, rgba(29,57,83,1) 100%);
+    text-align: center;
+    position: relative;
+    top: 1%;
+    left: 42%;
+    font-size: x-large;
+    font-family: Roboto, Arial, sans-serif;
+}
+
 
     .container{
         flex-direction: row;
