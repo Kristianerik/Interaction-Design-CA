@@ -35,9 +35,9 @@ header{
 form{
     display: inline-flex;
     position: relative;
-    left: 13%;
+    left: 9%;
     top: 35%;
-    width: 455px;
+    width: 90%;
     height: 50px;
     margin: 0%;
 }
@@ -47,10 +47,11 @@ form{
     left: -5%;
     position: relative;
     display: flex;
+    width: 94%;
 }
 
 .search-bar input[type=text] {
-    width: 500px;
+    width: 80%;
     height: 60px;
     padding: 0px;
     font-family: Comfortaa, Arial, sans-serif; 
@@ -60,7 +61,7 @@ form{
 
 .search-bar button{
     margin: 0px;
-    width: 80px;
+    width: 20%;
     height: 65px;
     background: var(--blue);
     border: none;
@@ -78,12 +79,12 @@ form{
 .logo{
     position: relative;
     top: 0%;
-    left: 16%;
+    left: 15%;
     border: solid;
     border-color: var(--background-dark-blue);
-    border-width: 3px;
-    width: 350px;
-    height: 205px;
+    border-width: 3px;  
+    width: 60%;
+    height: 65%;
     border:  0px;
     background-color: #ffffff;
     margin: 0%;
@@ -98,16 +99,18 @@ form{
     font-size: xx-large;
     border: none;
     right: 0px;
-    width: 105px;
-    height: 80px;
-
+    width: 212%;
+    height: 77%;
 }
 
 .dropdown {
     position: absolute;
     display: inline-block;
     top: 0%;
-    right: 8%;
+    left: 0%;
+    text-align: center;
+    width: 7.1%;
+    height: 90px;
 }
 
 .dropdown-content {
@@ -154,7 +157,7 @@ main {
 /* css for new section header */
 
 .new-releases {
-    width: 240px;
+    width: 40%;
     color: #ffffff;
     padding: 10px;
     border: 2px solid var(--background-dark-blue);
@@ -163,7 +166,7 @@ main {
     text-align: center;
     position: relative;
     top: 2%;
-    left: 24%;
+    left: 22%;
     display: block;
     font-size: x-large;
     font-family: Roboto, Arial, sans-serif;
@@ -178,7 +181,7 @@ main {
     position: relative;
     top: 3%;
     left: 6%;
-    width: 27em;
+    width: 70%;
 }
 
 .gamecover {
@@ -280,6 +283,8 @@ form{
 
 .logo{
     float: left;
+    position: relative;
+    left: 0%;
     border: solid;
     border-color: var(--background-dark-blue);
     border-width: 3px;
