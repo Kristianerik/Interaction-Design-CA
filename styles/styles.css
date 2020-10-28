@@ -44,7 +44,7 @@ form{
 
 .search-bar{
     top: 5%;
-    left: -10%;
+    left: -5%;
     position: relative;
     display: flex;
 }
@@ -78,7 +78,7 @@ form{
 .logo{
     position: relative;
     top: 0%;
-    left: 11%;
+    left: 16%;
     border: solid;
     border-color: var(--background-dark-blue);
     border-width: 3px;
@@ -98,7 +98,7 @@ form{
     font-size: xx-large;
     border: none;
     right: 0px;
-    width: 75px;
+    width: 105px;
     height: 80px;
 
 }
@@ -107,7 +107,7 @@ form{
     position: absolute;
     display: inline-block;
     top: 0%;
-    right: 18%;
+    right: 8%;
 }
 
 .dropdown-content {
@@ -163,7 +163,7 @@ main {
     text-align: center;
     position: relative;
     top: 2%;
-    left: 19%;
+    left: 24%;
     display: block;
     font-size: x-large;
     font-family: Roboto, Arial, sans-serif;
@@ -177,8 +177,8 @@ main {
     flex-direction: column;
     position: relative;
     top: 3%;
-    left: 4%;
-    width: 25em;
+    left: 6%;
+    width: 27em;
 }
 
 .gamecover {
