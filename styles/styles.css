@@ -35,7 +35,7 @@ header{
 form{
     display: inline-flex;
     position: relative;
-    left: 9%;
+    left: 18%;
     top: 35%;
     width: 90%;
     height: 50px;
@@ -79,7 +79,7 @@ form{
 .logo{
     position: relative;
     top: 0%;
-    left: 13%;
+    left: 20%;
     border: solid;
     border-color: var(--background-dark-blue);
     border-width: 3px;  
@@ -109,7 +109,7 @@ form{
     top: 0%;
     left: 0%;
     text-align: center;
-    width: 6.2%;
+    width: 9.5%;
     height: 90px;
 }
 
@@ -166,7 +166,7 @@ main {
     text-align: center;
     position: relative;
     top: 2%;
-    left: 14%;
+    left: 21%;
     display: block;
     font-size: x-large;
     font-family: Roboto, Arial, sans-serif;
@@ -180,7 +180,7 @@ main {
     flex-direction: column;
     position: relative;
     top: 3%;
-    left: 3%;
+    left: 10%;
     width: 70%;
 }
 
@@ -195,7 +195,7 @@ main {
     text-align: center;
     font-family: Titillium Web, Arial, Helvetica, sans-serif;
     color: #ffffff;
-    font-size: 60%;
+    font-size: 80%;
 }
 
 /* Css for Game Cover images */
@@ -346,9 +346,19 @@ form{
     font-family: Roboto, Arial, sans-serif;
 }
 
+/* css for flex box containing game content */
 
-    .container{
+.container{
         flex-direction: row;
-    }
+        left: 0%;
+        width: 90%;
+        flex-wrap: wrap;
+}
+
+.gameart {
+    width: 100%;
+}
+
 
 }
+
