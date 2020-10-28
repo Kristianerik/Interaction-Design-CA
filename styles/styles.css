@@ -149,7 +149,7 @@ form{
 main {
     display: block;
     margin: 0px;
-    height: 2333px;
+    height: 400em;
     background: rgb(2,0,36);
     background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(27,32,61,1) 73%, rgba(101,104,108,1) 100%);
 }
@@ -206,7 +206,7 @@ main {
 
 /* css for flexbox in popular now section */
 
-.container{
+.containertwo{
     display: flex;
     flex-direction: column;
     position: relative;
