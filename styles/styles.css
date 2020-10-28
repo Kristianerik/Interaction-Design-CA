@@ -21,7 +21,7 @@ body {
     margin: 0px;
 }
 
-/* css for header */
+/* ------------------------------------------------------ header -------------------------------------------- */
 
 header{
     height: 310px;
@@ -144,12 +144,12 @@ form{
     background-color: var(--light-blue);
 }
 
-/* css for body of page */
+/* ------------------------------------------------------ Body -------------------------------------------- */
 
 main {
     display: block;
     margin: 0px;
-    height: 400em;
+    height: 300em;
     background: rgb(2,0,36);
     background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(27,32,61,1) 73%, rgba(101,104,108,1) 100%);
 }
@@ -205,15 +205,50 @@ main {
     width: 75%;
 }
 
+/* ------------------------------------------------------ Footer -------------------------------------------- */
+
+
+.aboutus{
+    width: 50%;
+    color: #ffffff;
+    padding: 10px;
+    border: 2px solid var(--background-dark-blue);
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(102,107,138,1) 80%, rgba(29,57,83,1) 100%);
+    text-align: center;
+    position: relative;
+    top: 1%;
+    left: 23%;
+    display: block;
+    font-size: x-large;
+    font-family: Roboto, Arial, sans-serif;
+    margin: 0%;
+}
+
+.contactus{
+    width: 50%;
+    color: #ffffff;
+    padding: 10px;
+    border: 2px solid var(--background-dark-blue);
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(102,107,138,1) 80%, rgba(29,57,83,1) 100%);
+    text-align: center;
+    position: relative;
+    top: 1%;
+    left: 23%;
+    display: block;
+    font-size: x-large;
+    font-family: Roboto, Arial, sans-serif;
+    margin: 0%;
+}
+
+
 
 
 /* css for footer image */
 
 .footerimage{
-    padding: 0%;
-    float: right;
-    width: 377px;
-    height: 251;
+    display: none;
 }
 
 /* css for footer */
@@ -331,7 +366,7 @@ form{
 }
 
 main{
-    height: 150em;
+    height: 100em;
 }
 
 
@@ -347,7 +382,7 @@ main{
     text-align: center;
     position: relative;
     top: 2%;
-    left: 35%;
+    left: 37%;
     font-size: x-large;
     font-family: Roboto, Arial, sans-serif;
 }
@@ -363,6 +398,15 @@ main{
 
 .gameart {
     width: 100%;
+}
+
+/* css for footer image */
+
+.footerimage{
+    padding: 0%;
+    float: right;
+    width: 377px;
+    height: 251;
 }
 
 
