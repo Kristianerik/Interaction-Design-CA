@@ -3,7 +3,7 @@
     src: url("../fonts/Comfortaa-VariableFont_wght.ttf");
     font-family: 'Roboto';
     src: url("../fonts/RobotoMono-VariableFont_wght.ttf");
-    font-family: Titillium Web;
+    font-family: 'Titillium Web';
     src: url("../fonts/TitilliumWeb-Regular.ttf");
 }
 
@@ -44,7 +44,7 @@ form{
 
 .search-bar{
     top: 5%;
-    left: 0%;
+    left: -4%;
     position: relative;
     display: flex;
     width: 85%;
@@ -79,7 +79,7 @@ form{
 .logo{
     position: relative;
     top: 0%;
-    left: 18%;
+    left: 13%;
     border: solid;
     border-color: var(--background-dark-blue);
     border-width: 3px;  
@@ -109,7 +109,7 @@ form{
     top: 0%;
     left: 0%;
     text-align: center;
-    width: 8.4%;
+    width: 6.2%;
     height: 90px;
 }
 
@@ -166,7 +166,7 @@ main {
     text-align: center;
     position: relative;
     top: 2%;
-    left: 22%;
+    left: 14%;
     display: block;
     font-size: x-large;
     font-family: Roboto, Arial, sans-serif;
@@ -180,23 +180,27 @@ main {
     flex-direction: column;
     position: relative;
     top: 3%;
-    left: 10%;
+    left: 3%;
     width: 70%;
 }
 
 .gamecover {
     flex: 1;
-    padding: 30px;
+    padding: 20px;
     position: relative;
     top: 2%;
     left: 5%;
     margin: 5%;
     background-color: var(--blue);
+    text-align: center;
+    font-family: Titillium Web, Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 1em;
 }
 
 /* Css for Game Cover images */
 .gameart {
-    width: 10em;
+    width: 50%;
 }
 
 
