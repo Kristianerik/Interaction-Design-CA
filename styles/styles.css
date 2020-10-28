@@ -191,23 +191,9 @@ main {
     top: 2%;
     left: 5%;
     margin: 5%;
-}
-
-.one {
     background-color: var(--blue);
 }
 
-.two {
-    background-color: var(--blue);
-}
-
-.three {
-    background-color: var(--blue);
-}
-
-.four {
-    background-color: var(--blue);
-}
 
 
 /* css for footer image */
