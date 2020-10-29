@@ -316,6 +316,11 @@ footer{
     background: var(--light-blue);
 }
 
+.coverGrid{
+    display: grid;
+    grid-gap: 3%;
+}
+
 
 
 @media only screen and (min-width: 600px){
@@ -419,7 +424,7 @@ header{
 
 .dropdown-content a{
     color: #ffffff;
-    padding: 20% 1.5em;
+    padding: 20%;
     text-decoration: none;
     display: block;
 }
