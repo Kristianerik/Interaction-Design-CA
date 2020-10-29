@@ -15,6 +15,10 @@
     --blue: #3D488A;
 }
 
+html{
+    overflow-x: hidden;
+}
+
 /* css to remove white border */
 
 body {
@@ -321,6 +325,7 @@ footer{
     flex-direction: column;
     width: 70%;
     position: relative;
+    left: 10%;
     margin-top: 9%;
 }
 
@@ -521,7 +526,10 @@ header{
 
 .coverGrid{
     flex-direction: row;
-
+    flex-wrap: wrap;
+    width: 70%;
+    left: 10%;
+    margin-top: 1%;
 }
 
 }
