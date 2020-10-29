@@ -21,6 +21,8 @@ body {
     margin: 0px;
 }
 
+/* --------------------------------------------------------------------------- CSS FOR HOME PAGE-------------------------------------------------------------------------------- */
+
 /* ------------------------------------------------------ header -------------------------------------------- */
 
 header{
@@ -32,7 +34,7 @@ header{
 
 /* css for search bar */
 
-form{
+.formA{
     display: inline-flex;
     position: relative;
     left: 18%;
@@ -76,7 +78,7 @@ form{
 
 /* css for website logo */
 
-.logo{
+.logohome{
     position: relative;
     top: 0%;
     left: 20%;
@@ -248,6 +250,73 @@ footer{
 }
 
 
+/* ---------------------------------------------------------------------------- CSS FOR SEARCH PAGE ------------------------------------------------------- */ 
+
+/* css for website logo */
+
+.searchHeader {
+    height: fit-content;
+}
+
+.logosearch{
+    position: relative;
+    top: 0%;
+    left: 20%;
+    border: solid;
+    border-color: var(--background-dark-blue);
+    border-width: 3px;  
+    width: 60%;
+    height: 65%;
+    border:  0px;
+    background-color: #ffffff;
+    margin: 0%;
+}
+
+
+.search-barb{
+    top: 5%;
+    left: -4%;
+    position: relative;
+    display: flex;
+    width: 85%;
+}
+
+.formB{
+    display: inline-flex;
+    position: relative;
+    left: 18%;
+    top: 35%;
+    width: 90%;
+    height: 50px;
+    margin: 0%;
+}
+
+
+.search-barb input[type=text] {
+    width: 80%;
+    height: 60px;
+    padding: 0px;
+    font-family: Comfortaa, Arial, sans-serif; 
+    font-size: 30px;
+    padding-left: 5px;
+}
+
+.search-barb button{
+    margin: 0px;
+    width: 20%;
+    height: 65px;
+    background: var(--blue);
+    border: none;
+    cursor: pointer;
+    font-size: x-large;
+    color: #ffffff;
+}
+
+.search-barb button:hover {
+    background: var(--light-blue);
+}
+
+
 
 @media only screen and (min-width: 600px){
 
@@ -265,7 +334,7 @@ header{
 
 /* css for search bar when page is > 600 px wide */
 
-form{
+.formA{
     display: inline-flex;
     position: relative;
     left: 10%;
@@ -303,7 +372,7 @@ form{
 
 /* css for website logo when page is > 600px wide*/
 
-.logo{
+.logohome{
     float: left;
     position: relative;
     left: 0%;
@@ -393,7 +462,6 @@ form{
 
 
 .footercontainer{
-    flex-direction: column;
     top: 18%;
     left: 17%;
     float: left;
@@ -414,6 +482,34 @@ form{
     display: inline-flex;
 }
 
+
+/* ---------------------------------------------------------------------------- CSS FOR SEARCH PAGE ------------------------------------------------------- */ 
+
+
+.logosearch {
+    width: 30%;
+    left: 25%;
+}
+
+.search-barb{
+    left: 20%;
+    margin-top: 0px;
+    display: block;
+
+}
+
+.search-barb input[type=text] {
+    width: 100%;
+}
+
+.search-barb button{
+    width: 17%;
+}
+
+.formB{
+    left: 10%;
+    width: 60%;
+}
 
 }
 

@@ -12,14 +12,18 @@
     <body>
 
         <!--------------------------------------------HTML FOR HEADER--------------------------------------------->
-        <header>
+        <header class="searchHeader">
+
             <!-- GameHub Logo -->
-            <img src="images/GameHub_Logo.png" alt="GameHub Company Logo" class="logo">
+            <a href="index.html">
+                <img src="images/GameHub_Logo.png" alt="GameHub Company Logo" class="logosearch">
+            </a>
             
             <!-- Drop down Nav Menu -->
-            <div class="dropdown" style="float: right;">
+            <div class="dropdown" style="float: left;">
                 <button class="dropbtn"><i class="fas fa-bars"></i></button>
                 <div class="dropdown-content">
+                    <a href="index.html"><i class="fas fa-home"></i></a>
                     <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
                     <a href="contact.html"><i class="fas fa-phone-alt"></i></a>
                     <a href="my_games.html"><i class="fas fa-gamepad"></i></a>
@@ -34,8 +38,8 @@
         <main>
 
             <!-- Search Bar-->
-            <div class="search-bar">
-                <form action="search.html">
+            <div class="search-barb" style="top: 3%;">
+                <form action="search.html" class="formB">
                     <input type="text" placeholder="Search For Games">
                 <button type="submit"><i class="fas fa-search"></i></button>
                 </form>
