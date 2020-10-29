@@ -317,8 +317,8 @@ footer{
 }
 
 .coverGrid{
-    display: grid;
-    grid-gap: 3%;
+    display: flex;
+    flex-direction: column;
 }
 
 
