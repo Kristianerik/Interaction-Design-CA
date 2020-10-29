@@ -319,6 +319,9 @@ footer{
 .coverGrid{
     display: flex;
     flex-direction: column;
+    width: 70%;
+    position: relative;
+    margin-top: 9%;
 }
 
 
@@ -497,7 +500,7 @@ header{
 }
 
 .search-barb{
-    left: 20%;
+    left: 16%;
     margin-top: 0px;
     display: block;
 
@@ -514,6 +517,11 @@ header{
 .formB{
     left: 10%;
     width: 60%;
+}
+
+.coverGrid{
+    flex-direction: row;
+
 }
 
 }
