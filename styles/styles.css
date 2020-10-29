@@ -393,15 +393,14 @@ form{
 
 
 .footercontainer{
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     top: 18%;
-    left: 20%;
+    left: 17%;
     float: left;
 }
 
 .footerbutton {
-    width: 75%;
+    width: 100%;
 
 }
 
