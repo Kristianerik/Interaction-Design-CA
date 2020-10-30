@@ -453,9 +453,10 @@ input[type=text], input[type=password]{
 /* ---------------------------------------------------------------------------- CSS FOR About us page ------------------------------------------------------- */ 
 
 .footerimageB{
-    width: 50%;
+    width: 70%;
     position: relative;
-    left: 10%;
+    left: 14%;
+    height: 100%;
 }
 
 .footerimageC{
@@ -677,12 +678,14 @@ header{
     position: relative;
     left: 10%;
     display: inline;
+    height: 100%;
 }
 
 .footerimageC{
     display: inline;
     width: 25%;
     float: left;
+    height: 100%;
 }
 
 
