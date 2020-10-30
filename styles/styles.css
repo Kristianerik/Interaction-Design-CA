@@ -450,6 +450,18 @@ input[type=text], input[type=password]{
     opacity: 0.8;
 }
 
+/* ---------------------------------------------------------------------------- CSS FOR About us page ------------------------------------------------------- */ 
+
+.footerimageB{
+    width: 50%;
+    position: relative;
+    left: 10%;
+}
+
+.footerimageC{
+    display: none;
+}
+
 
 @media only screen and (min-width: 600px){
 
@@ -612,7 +624,7 @@ header{
     float: right;
     width: 30%;
     height: 100%;
-    display: inline-flex;
+    display: inline;
 }
 
 
@@ -656,6 +668,21 @@ header{
 
 .gameContent {
     margin-top: 3%;
+}
+
+/* ---------------------------------------------------------------------------- CSS FOR About us page ------------------------------------------------------- */ 
+
+.footerimageB{
+    width: 25%;
+    position: relative;
+    left: 10%;
+    display: inline;
+}
+
+.footerimageC{
+    display: inline;
+    width: 25%;
+    float: left;
 }
 
 
