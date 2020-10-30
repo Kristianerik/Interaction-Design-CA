@@ -4,27 +4,62 @@
     <title>GameHub Cart</title>
     <meta name="description" content="This is the cart page for GameHub marketplace">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Style Sheet -->
+    <link href="styles/styles.css" rel="stylesheet">
+    <!-- font awesome import -->
+    <script src="https://kit.fontawesome.com/b9b2d21554.js" crossorigin="anonymous"></script>
 </head>
     <body>
         <header>
-            <nav>
-                <ul>
-                    <li><a href="index.html"> Home</a></li>
-                    <li><a href="contact.html"> Contact</a></li>
-                    <li><a href="account.html"> Account</a></li>
-                    <li><a href="cart.html"> Cart</a></li>
-                    <li><a href="game.html"> Game</a></li>
-                    <li><a href="my_games.html"> My Games</a></li>
-                    <li><a href="search.html"> Search</a></li>
-                </ul>
-            </nav>
+            <!-- GameHub Logo -->
+            <a href="index.html">
+                <img src="images/GameHub_Logo.png" alt="GameHub Company Logo" class="logohome">
+            </a>
+            <!-- Search Bar-->
+            <div class="search-bar">
+                <form action="search.html" class="formA">
+                    <input type="text" placeholder="Search For Games">
+                <button type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+            <!-- Drop down Nav Menu -->
+            <div class="dropdown" style="float: right;">
+                <button class="dropbtn"><i class="fas fa-bars"></i></button>
+                <div class="dropdown-content">
+                    <a href="index.html"><i class="fas fa-home"></i></a>
+                    <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+                    <a href="contact.html"><i class="fas fa-phone-alt"></i></a>
+                    <a href="my_games.html"><i class="fas fa-gamepad"></i></a>
+                    <a href="account.html"><i class="fas fa-user"></i></a>
+                </div>
+            </div>
         </header>
         <main>
             <h1>Welcome to the GameHub Cart Page</h1>
             <p>This is where the content will go</p>
         </main>
         <footer>
-            Copyright &copy;
+
+            <section class="footercontainer">
+                <!-- About us section -->
+                <a href="contact.html">
+                    <div class="footerbutton">
+                        About Us
+                    </div>
+                </a>
+
+                <!-- Contact us section -->
+                <a href="contact.html" style="margin-top: 10%;">
+                    <div class="footerbutton">
+                        Contact Us
+                    </div>
+                </a>
+            </section>
+
+                <!-- footer image -->
+                <img src="images/VRHeadSet.JPG" alt="Man wearing vrheadset looking left" class="footerimage">
+            </section>
+
         </footer>
     </body>
 </html>
