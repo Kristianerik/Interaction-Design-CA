@@ -175,7 +175,7 @@ main {
     left: 23%;
     display: block;
     font-size: x-large;
-    font-family: Roboto, Arial, sans-serif;
+    font-family: Comfortaa, Arial, sans-serif;
     margin: 0%;
 }
 
@@ -372,6 +372,30 @@ footer{
 }
 
 
+/* ---------------------------------------------------------------------------- CSS FOR SEARCH PAGE ------------------------------------------------------- */ 
+
+.gameContent {
+    background-color: var(--blue);
+    width: 50%;
+    position: relative;
+    left: 10%;
+    font-family: Titillium Web, Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.coverContent {
+    width: 50%;
+    position: relative;
+    display: block;
+}
+
+.contentText {
+    background-color: var(--background-dark-blue);
+    display: block;
+    position: relative;
+    left: 10%;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
 
 @media only screen and (min-width: 600px){
 

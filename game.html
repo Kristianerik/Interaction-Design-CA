@@ -9,9 +9,12 @@
     <link href="styles/styles.css" rel="stylesheet">
 </head>
     <body>
+
         <header>
             <!-- GameHub Logo -->
-            <img src="images/GameHub_Logo.png" alt="GameHub Company Logo" class="logohome">
+            <a href="index.html">
+                <img src="images/GameHub_Logo.png" alt="GameHub Company Logo" class="logohome">
+            </a>
             <!-- Search Bar-->
             <div class="search-bar">
                 <form action="search.html" class="formA">
@@ -23,6 +26,7 @@
             <div class="dropdown" style="float: right;">
                 <button class="dropbtn"><i class="fas fa-bars"></i></button>
                 <div class="dropdown-content">
+                    <a href="index.html"><i class="fas fa-home"></i></a>
                     <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
                     <a href="contact.html"><i class="fas fa-phone-alt"></i></a>
                     <a href="my_games.html"><i class="fas fa-gamepad"></i></a>
@@ -31,10 +35,27 @@
                 </div>
             </div>
         </header>
+
+
         <main>
-            <h1>Welcome to the GameHub Game Page</h1>
-            <p>This is where the content will go</p>
+            <!-- Game Title -->
+            <div class="secheader">
+                MineCraft
+            </div>
+
+            <div class="gameContent">
+                <img src="images/MinecraftCover.jpg" alt="MineCraft Game Cover" class="coverContent">
+                <h1 class="contentText">Price:</h1>
+                <p>$29.99</p>
+                <h1 class="contentText">Rating:</h1>
+                <p>Rating: 4/5 <i class="fas fa-star"></i></p>
+                <h1 class="contentText">Description:</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec arcu mi, pellentesque et porttitor in, varius a velit. Donec et nisl sed mauris laoreet euismod. Maecenas hendrerit posuere orci, nec tincidunt ipsum hendrerit sed. Nam tempus volutpat sodales. Fusce sed ultrices dui. Ut a justo eget justo aliquam pharetra. Vivamus tincidunt dictum erat, sed egestas ipsum facilisis ut. Curabitur in accumsan quam. Suspendisse consectetur fringilla massa, in sagittis ligula placerat at. Suspendisse facilisis porttitor metus, sit amet consectetur velit rutrum sit amet. Fusce tempor placerat dictum. Integer elit urna, dapibus in mi quis, blandit elementum lorem. Quisque non leo orci. In quis feugiat dolor.</p>
+            </div>
+
         </main>
+
+
         <footer>
 
             <section class="footercontainer">
