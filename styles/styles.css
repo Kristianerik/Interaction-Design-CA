@@ -372,7 +372,7 @@ footer{
 }
 
 
-/* ---------------------------------------------------------------------------- CSS FOR SEARCH PAGE ------------------------------------------------------- */ 
+/* ---------------------------------------------------------------------------- CSS FOR Game PAGE ------------------------------------------------------- */ 
 
 .gameContent {
     background-color: var(--blue);
@@ -398,6 +398,37 @@ footer{
     padding: 2%;
     font-size: xx-large;
 }
+
+
+
+/* ---------------------------------------------------------------------------- CSS FOR Create Account PAGE ------------------------------------------------------- */ 
+.containerb {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    position: relative;
+    left: 5%;
+    color: #ffffff;
+    font-family: Titillium Web, Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.signinBox {
+    background-color: var(--blue);
+    width: 50%;
+    position: relative;
+    left: 1%;
+}
+
+.createaccountBox {
+    background-color: var(--blue);
+    width: 50%;
+    position: relative;
+    left: 1%;
+}
+
+
+
 
 @media only screen and (min-width: 600px){
 
