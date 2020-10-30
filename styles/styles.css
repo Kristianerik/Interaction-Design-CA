@@ -344,9 +344,25 @@ footer{
     background-color: var(--light-blue);
 }
 
-.removeButton:active {
-    background-color: lightgreen;
+.removeButton:visited {
+    background-color: var(--light-blue);
 }
+
+
+.two {
+    background-color: green;
+    font-size: xx-large;
+}
+
+.two:hover {
+    background-color: var(--light-blue);
+}
+
+.two:visited{
+    background-color: var(--light-blue);
+}
+
+
 
 @media only screen and (min-width: 600px){
 
