@@ -415,16 +415,18 @@ footer{
 
 .signinBox {
     background-color: var(--blue);
-    width: 70%;
+    width: 75%;
     position: relative;
-    left: 20%;
+    left: 22%;
 }
 
 .createaccountBox {
     background-color: var(--blue);
-    width: 50%;
+    margin-top: 5%;
+    width: 75%;
     position: relative;
-    left: 1%;
+    left: 22%;
+
 }
 
 .containerC {
@@ -439,7 +441,7 @@ input[type=text], input[type=password]{
 }
 
 .submit {
-    background-color: green;
+    background-color: var(--background-dark-blue);
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
@@ -457,6 +459,9 @@ input[type=text], input[type=password]{
     opacity: 0.8;
 }
 
+.containerD {
+    padding: 4%;
+}
 
 @media only screen and (min-width: 600px){
 
