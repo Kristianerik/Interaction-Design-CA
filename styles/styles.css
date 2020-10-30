@@ -206,6 +206,10 @@ main {
     font-size: 75%;
 }
 
+.descText {
+    background-color: var(--background-dark-blue);
+}
+
 /* Css for Game Cover images */
 .gameart {
     width: 75%;
@@ -329,7 +333,20 @@ footer{
     margin-top: 9%;
 }
 
+/* ------------------------------------------------------------------------------ CSS for My Games Page ----------------------------------------------------------------------- */
 
+.removeButton{
+    background-color: red;
+    padding: 10px;
+}
+
+.removeButton:hover {
+    background-color: var(--light-blue);
+}
+
+.removeButton:active {
+    background-color: lightgreen;
+}
 
 @media only screen and (min-width: 600px){
 
