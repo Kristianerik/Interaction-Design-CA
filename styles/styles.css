@@ -349,16 +349,25 @@ footer{
 }
 
 
-.two {
+.addButton {
+    flex: 1;
+    padding: 20px;
+    position: relative;
+    top: 2%;
+    left: 5%;
+    margin: 5%;
     background-color: green;
+    text-align: center;
+    font-family: Titillium Web, Arial, Helvetica, sans-serif;
+    color: #ffffff;
     font-size: xx-large;
 }
 
-.two:hover {
+.addButton:hover {
     background-color: var(--light-blue);
 }
 
-.two:visited{
+.addButton:visited{
     background-color: var(--light-blue);
 }
 
