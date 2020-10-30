@@ -413,20 +413,11 @@ footer{
     font-size: large;
 }
 
-.signinBox {
+.contentBox {
     background-color: var(--blue);
     width: 75%;
     position: relative;
     left: 22%;
-}
-
-.createaccountBox {
-    background-color: var(--blue);
-    margin-top: 5%;
-    width: 75%;
-    position: relative;
-    left: 22%;
-
 }
 
 .containerC {
@@ -459,9 +450,6 @@ input[type=text], input[type=password]{
     opacity: 0.8;
 }
 
-.containerD {
-    padding: 4%;
-}
 
 @media only screen and (min-width: 600px){
 
