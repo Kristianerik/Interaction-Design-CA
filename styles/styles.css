@@ -415,9 +415,9 @@ footer{
 
 .signinBox {
     background-color: var(--blue);
-    width: 50%;
+    width: 70%;
     position: relative;
-    left: 1%;
+    left: 20%;
 }
 
 .createaccountBox {
@@ -428,7 +428,7 @@ footer{
 }
 
 .containerC {
-    padding: 16px;
+    padding: 5%;
 }
 
 input[type=text], input[type=password]{
@@ -445,6 +445,12 @@ input[type=text], input[type=password]{
     border: none;
     cursor: pointer;
     width: 50%;
+    position: relative;
+    left: 25%;
+    margin-top: 10%;
+    color: #ffffff;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: x-large;
 }
 
 .submit:hover {
