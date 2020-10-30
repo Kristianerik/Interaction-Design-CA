@@ -670,5 +670,11 @@ header{
     margin-top: 3%;
 }
 
+/* ---------------------------------------------------------------------------- CSS FOR Create Account PAGE ------------------------------------------------------- */ 
+.containerb {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 }
 
