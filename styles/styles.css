@@ -427,7 +427,30 @@ footer{
     left: 1%;
 }
 
+.containerC {
+    padding: 16px;
+}
 
+input[type=text], input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+}
+
+.submit {
+    background-color: green;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+
+.submit:hover {
+    opacity: 0.8;
+}
 
 
 @media only screen and (min-width: 600px){
