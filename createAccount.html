@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title>GameHub Account</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="This is the create account page for GameHub marketplace">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Style Sheet -->
+    <link href="styles/styles.css" rel="stylesheet">
+    <!-- font awesome import -->
+    <script src="https://kit.fontawesome.com/b9b2d21554.js" crossorigin="anonymous"></script>
+</head>
+    <body>
+
+        <header>
+            <!-- GameHub Logo -->
+            <a href="index.html"> <img src="images/GameHub_Logo.png" alt="GameHub Company Logo" class="logohome"> </a>
+
+            <!-- Nav Buttons -->
+            <a href="my_games.html" style="text-decoration: none;"> <div class="headerNav"> My Games </div> </a>
+            <a href="account.html" style="text-decoration: none;"> <div class="headerNav"> Account </div> </a>
+            <a href="contact.html" style="text-decoration: none;"> <div class="headerNav"> Contact </div> </a>
+            <a href="search.html" style="text-decoration: none;"> <div class="headerNav"> Search </div> </a>
+            <a href="cart.html" style="text-decoration: none;"> <div class="headerNav"> Cart </div> </a>
+
+        </header>
+
+
+        <main>
+            
+            <section class="containerb">
+
+                <div class="contentBox" style="margin-top: 5%;">
+                    
+                    <!--Sign in Section-->
+                   <div class="gameHeader" style="background-color: #E4DFC2; color: #121212; font-size: xx-large; width: 50%; left: 21%; font-weight: bold;"> Sign In </div>
+
+                    <div class="containerC">
+                        <label for="uname" style="font-size: x-large;"><b>UserName:</b></label>
+                        <input type="text" placeholder="Enter Username" name="psw">
+                        <label for="psw" style="font-size: x-large;"><b>Password:</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+                        <button type="submit" class="submit">Login</button>
+                    </div>
+
+                </div>
+
+
+                <div class="contentBox" style="margin-top: 5%; margin-bottom: 5%;">
+                    
+                    <!--Create Account Section-->
+                   <div class="gameHeader" style="background-color: #E4DFC2; color: #121212; font-size: xx-large; width: 50%; left: 21%; font-weight: bold;"> Create Account </div>
+
+                        <div class="containerC">
+                            <form id="accountForm">
+                                <div>
+                                    <label for="email"><b>Email:</b></label>
+                                    <input type="text" placeholder="Enter Email" name="email" id="email" />
+                                    <div class="form-error" id="emailError">Please enter your Email</div>
+                                </div>
+
+                                <div>
+                                <label for="psw"><b>Password (minimum length 6):</b></label>
+                                <input type="password" placeholder="Enter Password" name="psw"  id="password" />
+                                <div class="form-error" id="passwordError">Please enter your Password</div>
+                                </div>
+
+                                <div>
+                                <label for="address"><b>Address:</b></label>
+                                <input type="text" placeholder="Enter Address" name="psw-repeat" id="address" />
+                                <div class="form-error" id="addressError">Please enter your Address</div>
+                                <button type="submit" class="submit">Sign Up</button>
+                                </div>
+                            </form>
+                        </div>
+
+                </div>
+
+
+            </section>
+
+        </main>
+
+
+        <footer>
+
+            <div class="footerHeader"> Follow Us On Our Socials</div>
+                <!-- Twitter image -->
+                <img src="images/twitter.png" alt="white twitter logo" class="footerimage">
+                <!-- Instagram image -->
+                <img src="images/instagram.jpg" alt="white instagram logo" class="footerimage">
+
+        </footer>
+
+    </body>
+</html>
+<script src="/js/createAccount.js"></script>

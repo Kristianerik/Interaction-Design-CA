@@ -17,6 +17,7 @@
 
 html{
     overflow-x: hidden;
+    background-color: #E4DFC2;
 }
 
 /* css to remove white border */
@@ -32,7 +33,7 @@ body {
 header{
     height: 310px;
     display: block;
-    background-color: var(--background-dark-blue);
+    background-color: #121212;
     margin: 0px;
 }
 
@@ -69,7 +70,7 @@ header{
     margin: 0px;
     width: 20%;
     height: 65px;
-    background: var(--blue);
+    background: #121212;
     border: none;
     cursor: pointer;
     font-size: x-large;
@@ -84,71 +85,31 @@ header{
 
 .logohome{
     position: relative;
-    top: 0%;
+    top: 8%;
     left: 20%;
-    border: solid;
-    border-color: var(--background-dark-blue);
-    border-width: 3px;  
     width: 60%;
     height: 65%;
     border:  0px;
-    background-color: #ffffff;
+    background-color: #121212;
     margin: 0%;
-}
-
-/* css for dropdown menu */
-
-.dropbtn {
-    background-color: var(--blue);
-    color: #ffffff;
-    padding: 16px;
-    font-size: xx-large;
-    border: none;
-    right: 0px;
-    width: 212%;
-    height: 77%;
-}
-
-.dropdown {
-    position: absolute;
-    display: inline-block;
-    top: 0%;
-    left: 0%;
-    text-align: center;
-    width: 9.5%;
-    height: 90px;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: var(--blue);
-    min-width: 75px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    left: 0;
-    text-align: center;
-    font-size: xx-large;
-}
-
-.dropdown-content a{
-    color: #ffffff;
-    padding: 20% 1.5em;
-    text-decoration: none;
     display: block;
 }
 
-.dropdown-content a:hover {
-    background-color: var(--light-blue);
+/* Css for Header Nav Buttons */
+
+.headerNav{
+    color: #E4DFC2;
+    display: inline;
+    padding: 1%;
+    position: relative;
+    font-size: medium;
+    left: 4%;
+    top: 15%;
+    border-bottom: solid;
+    margin-right: 3%;
+
 }
 
-.dropdown:hover .dropdown-content{
-    display: block;
-}
-
-.dropdown:hover .dropbtn {
-    background-color: var(--light-blue);
-}
 
 /* ------------------------------------------------------ Body -------------------------------------------- */
 
@@ -156,27 +117,49 @@ main {
     display: block;
     margin: 0px;
     height: fit-content;
-    background: rgb(2,0,36);
-    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(27,32,61,1) 73%, rgba(101,104,108,1) 100%);
+    background-color: #E4DFC2;
+}
+
+.mainSection{
+    border-radius: 45%;
+    background-color: #121212;
+    height: 24%;
+    width: 75%;
+    position: absolute;
+    left: 4%;
+    top: 37%;
+    padding: 8%;
+    display: inline;
+}
+
+.mainSectionText{
+    color: #E4DFC2;
+    font-size: x-large;
+    position: absolute;
+    top: 35%;
+    left: 8%;
+}
+
+.backgroundImage{
+    width: 100%;
+    position: relative;
+    margin-top: 3%;
+    display: inline;
 }
 
 /* css for section headers */
 
-.secheader {
-    width: 50%;
-    color: #ffffff;
-    padding: 10px;
-    border: 2px solid var(--background-dark-blue);
-    background: rgb(2,0,36);
-    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(102,107,138,1) 80%, rgba(29,57,83,1) 100%);
-    text-align: center;
+.gameHeader{
     position: relative;
-    top: 1%;
-    left: 23%;
-    display: block;
-    font-size: xx-large;
-    font-family: Comfortaa, Arial, sans-serif;
-    margin: 0%;
+    left: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 40%;
+    font-size: x-large;
+    background-color: #121212;
+    padding: 3%;
+    color: #E4DFC2;
+    text-align: center;
 }
 
 /* css for flexbox in new releases section */
@@ -186,65 +169,62 @@ main {
     flex-direction: column;
     position: relative;
     top: 1%;
-    left: 11.5%;
+    left: 13.5%;
     width: 70%;
+}
+
+/*CSS for Game Boxes */
+
+.gameBox{
+    width: 100%;
+    background-color: #121212;
+    color: #E4DFC2;
+    text-align: center;
+    margin-bottom: 5%;
 }
 
 /* css for game covers */
 
-.gamecover {
-    flex: 1;
-    padding: 20px;
+.gameCover {
+   width: 100%;
+}
+
+/* css for purchase button */
+
+.purchaseButton{
+    background-color: #E4DFC2;
+    width: 25%;
+    color: #121212;
+    left: 33%;
     position: relative;
-    top: 2%;
-    left: 5%;
-    margin: 5%;
-    background-color: var(--blue);
+    padding: 3%;
     text-align: center;
-    font-family: Titillium Web, Arial, Helvetica, sans-serif;
-    color: #ffffff;
-    font-size: 75%;
-}
-
-.descText {
-    background-color: var(--background-dark-blue);
-}
-
-/* Css for Game Cover images */
-.gameart {
-    width: 75%;
+    border-radius: 25%;
+    font-size: medium;
+    margin-bottom: 5%;
 }
 
 /* ------------------------------------------------------ Footer -------------------------------------------- */
 
-.footercontainer{
-    display: flex;
-    flex-direction: column;
+.footerHeader{
+    color:  #E4DFC2;
+    font-size: large;
+    border-bottom: solid;
+    padding: 2%;
+    width: 50%;
     position: relative;
-    top: 25%;
-    left: 29%;
-    width: 35%;
-}
-
-.footerbutton{
-    width: 100%;
-    color: #ffffff;
-    padding: 10px;
-    border: 2px solid var(--background-dark-blue);
-    background-color: var(--blue);
+    left: 23%;
     text-align: center;
-    font-size: x-large;
-    font-family: Roboto, Arial, sans-serif;
+    top: 5%;
 }
-
-.footerbutton:hover {
-    background-color: var(--light-blue);
-}
-
 /* css for footer image */
 
 .footerimage{
-    display: none;
+    height: 50%;
+    position: relative;
+    left: 14%;
+    top: 15%;
+    width: 35%;
 }
 
 /* css for footer */
@@ -253,7 +233,7 @@ footer{
     display: block;
     margin: 0px;
     height: 251px;
-    background-color: var(--background-dark-blue);
+    background-color: #121212;
     padding: 0%;
 }
 
@@ -392,11 +372,12 @@ footer{
 }
 
 .contentText {
-    background-color: var(--background-dark-blue);
+    background-color: #E4DFC2;
     display: block;
     font-family: Roboto, Arial, Helvetica, sans-serif;
     padding: 2%;
     font-size: xx-large;
+    color: #121212;
 }
 
 
@@ -408,13 +389,13 @@ footer{
     width: 75%;
     position: relative;
     left: 5%;
-    color: #ffffff;
+    color: #E4DFC2;
     font-family: Titillium Web, Arial, Helvetica, sans-serif;
     font-size: large;
 }
 
 .contentBox {
-    background-color: var(--blue);
+    background-color: #121212;
     width: 75%;
     position: relative;
     left: 22%;
@@ -432,7 +413,7 @@ input[type=text], input[type=password]{
 }
 
 .submit {
-    background-color: var(--background-dark-blue);
+    background-color: #E4DFC2;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
@@ -441,7 +422,7 @@ input[type=text], input[type=password]{
     position: relative;
     left: 25%;
     margin-top: 10%;
-    color: #ffffff;
+    color: #121212;
     font-family: Roboto, Arial, Helvetica, sans-serif;
     font-size: x-large;
 }
@@ -450,17 +431,22 @@ input[type=text], input[type=password]{
     opacity: 0.8;
 }
 
-/* ---------------------------------------------------------------------------- CSS FOR About us page ------------------------------------------------------- */ 
+/* ---------------------------------------------------------------------------- CSS FOR Cart page ------------------------------------------------------- */ 
 
-.footerimageB{
-    width: 70%;
+.cartHeader{
+    display: inline;
+    margin-right: 5%;
+    font-size: x-large;
     position: relative;
-    left: 14%;
-    height: 100%;
+    left: 2%;
+    border-bottom: solid;
 }
 
-.footerimageC{
-    display: none;
+.cartContent{
+    display: inline;
+    margin-right: 10%;
+    position: relative;
+    right: 10%;
 }
 
 /* ---------------------------------------------------------------------------- CSS FOR Create Account PAGE ------------------------------------------------------- */ 
@@ -468,7 +454,7 @@ input[type=text], input[type=password]{
 .userIcon {
     width: 65%;
     margin-top: 9%;
-
+    background-color: #E4DFC2;
 }
 
 @media only screen and (min-width: 600px){
@@ -479,9 +465,8 @@ input[type=text], input[type=password]{
 /* css for header when page is > 600 px wide*/
 
 header{
-    height: 205px;
+    height: 20em;
     display: block;
-    background-color: var(--background-dark-blue);
     margin: 0px;
 }
 
@@ -516,7 +501,7 @@ header{
     margin-top: 0px;
     width: 15%;
     height: 65px;
-    background: var(--blue);
+    background: #121212;
     border: none;
     cursor: pointer;
     font-size: x-large;
@@ -526,59 +511,33 @@ header{
 /* css for website logo when page is > 600px wide*/
 
 .logohome{
-    float: left;
     position: relative;
-    left: 0%;
-    border: solid;
-    border-color: var(--background-dark-blue);
-    border-width: 3px;
-    width: 25%;
+    left: 33%;
+    width: 35%;
     height: 205px;
-    border:  0px;
-    background-color: #ffffff;
-    margin: 0%;
+    background-color: #121212;
 }
 
-/* css for dropdown menu when page is > 600px wide */
+/* Css for Header Nav Buttons */
 
-.dropbtn {
-    background-color: var(--blue);
-    color: #ffffff;
-    padding: 16px;
-    font-size: xx-large;
-    border: none;
-    right: 0;
-    width: 100%;
-    height: 80px;
-
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: var(--blue);
-    min-width: 105px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    right: 0;
-    text-align: center;
-    font-size: xx-large;
-}
-
-.dropdown-content a{
-    color: #ffffff;
-    padding: 20%;
-    text-decoration: none;
-    display: block;
+.headerNav{
+    font-size: x-large;
+    left: 19%;
 }
 
 /* ------------------------------------------------------ Body -------------------------------------------- */
 
+
+.mainSection{
+    height: 57%;
+    top: 41%;
+}
+
+.mainSectionText{
+    font-size: xxx-large;
+    top: 37%;
+    left: 14%;
+}
 
 /* css for new releases section header when page is > 600px */
 
@@ -602,37 +561,29 @@ header{
 .container{
         flex-direction: row;
         left: 0%;
-        width: 90%;
+        width: 100%;
         flex-wrap: wrap;
+        display: flex;
 }
 
-.gameart {
-    width: 100%;
+.gameBox{
+    width: 25%;
+    margin-right: 7%;
+    position: relative;
+    left: 5%;
 }
-
 
 /* ------------------------------------------------------ Footer -------------------------------------------- */
 
 
-.footercontainer{
-    top: 18%;
-    left: 17%;
-    float: left;
-}
-
-.footerbutton {
-    width: 100%;
-
-}
 
 /* css for footer image */
 
 .footerimage{
-    padding: 0%;
-    float: right;
-    width: 30%;
-    height: 100%;
-    display: inline;
+    width: 20%;
+    height: 50%;
+    margin-right: 6%;
+    left: 27%;
 }
 
 
@@ -679,23 +630,6 @@ header{
 }
 
 /* ---------------------------------------------------------------------------- CSS FOR About us page ------------------------------------------------------- */ 
-
-.footerimageB{
-    width: 25%;
-    position: relative;
-    left: 10%;
-    display: inline;
-    height: 100%;
-}
-
-.footerimageC{
-    display: inline;
-    width: 25%;
-    float: left;
-    height: 100%;
-}
-
-
 
 }
 
