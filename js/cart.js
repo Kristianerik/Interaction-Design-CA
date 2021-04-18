@@ -1,3 +1,59 @@
+/*JavaScript for adding products to page */
+const url = "http://kristianportfolio.eu/wp-json/wc/store/products"
+var containerOne = document.querySelector(".one");
+var containerTwo = document.querySelector(".two");
+var containerThree = document.querySelector(".three");
+var containerFour = document.querySelector(".four");
+var containerFive = document.querySelector(".five");
+var containerSix = document.querySelector(".six");
+
+
+
+
+async function makeApiCall() {
+    try{
+        const response = await fetch(url);
+
+        const retrieved = await response.json();
+        console.log(retrieved);
+
+       // Code for first game
+        containerOne.innerHTML = "<a href='gamePageOne.html'>" + '<img src=' + retrieved[0].images[0].src + " class='gameCover'>" + "</a>" + '<p class="gameTitle">Title: ' 
+        + retrieved[0].name + '</p>' + '<p class="gamePrice">Price: £' + retrieved[0].prices.price + "</p>" + '<div class="purchaseButton">Purchase</div>';
+        
+       // Code for Second Game
+       containerTwo.innerHTML = "<a href='gamePageTwo.html'>" + '<img src=' + retrieved[1].images[0].src + " class='gameCover'>" + "</a>" + '<p class="gameTitle">Title: ' 
+       + retrieved[1].name + '</p>' + '<p class="gamePrice">Price: £' + retrieved[1].prices.price + "</p>" + '<div class="purchaseButton">Purchase</div>';
+        
+       // Code for Third Game
+       containerThree.innerHTML = "<a href='gamePageThree.html'>" + '<img src=' + retrieved[2].images[0].src + " class='gameCover'>" + "</a>" + '<p class="gameTitle">Title: ' 
+       + retrieved[2].name + '</p>' + '<p class="gamePrice">Price: £' + retrieved[2].prices.price + "</p>" + '<div class="purchaseButton">Purchase</div>';
+
+       // Code for Fourth Game
+       containerFour.innerHTML = "<a href='gamePageFour.html'>" + '<img src=' + retrieved[3].images[0].src + " class='gameCover'>" + "</a>" + '<p class="gameTitle">Title: ' 
+       + retrieved[3].name + '</p>' + '<p class="gamePrice">Price: £' + retrieved[3].prices.price + "</p>" + '<div class="purchaseButton">Purchase</div>';
+
+       // Code for Fifth Game
+       containerFive.innerHTML = "<a href='gamePageFive.html'>" + '<img src=' + retrieved[4].images[0].src + " class='gameCover'>" + "</a>" + '<p class="gameTitle">Title: ' 
+       + retrieved[4].name + '</p>' + '<p class="gamePrice">Price: £' + retrieved[4].prices.price + "</p>" + '<div class="purchaseButton">Purchase</div>';
+
+       // Code for Sixth Game
+       containerSix.innerHTML = "<a href='gamePageSix.html'>" + '<img src=' + retrieved[5].images[0].src + " class='gameCover'>" + "</a>" + '<p class="gameTitle">Title: ' 
+       + retrieved[5].name + '</p>' + '<p class="gamePrice">Price: £' + retrieved[5].prices.price + "</p>" + '<div class="purchaseButton">Purchase</div>';
+
+
+
+    }
+
+
+    catch (error) {
+    console.log(error);    
+ } 
+}
+makeApiCall();
+
+
+/*JavaScript for add to cart feature 
 let carts = document.querySelectorAll(".purchaseButton");
 
 let products = [
@@ -112,8 +168,8 @@ function totalCost(product){
     }
 
 }
+*/
 
 
-
-onLoadCartAmount();
-displayCart();
+//onLoadCartAmount();
+//displayCart();
