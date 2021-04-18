@@ -1,5 +1,5 @@
 /*JavaScript for adding products to page */
-const url = "http://kristianportfolio.eu/wp-json/wc/store/products"
+const url = "https://kristianportfolio.eu/wp-json/wc/store/products"
 var contentArea = document.querySelector(".contentInput");
 
 async function makeApiCall() {
